@@ -1,0 +1,1 @@
+## Exercises from Eduweb JS course by Piotr Palarz
