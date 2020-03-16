@@ -1,8 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
 .button {
-    color: blanchedalmond;
+    background-color: blanchedalmond;
+    border: none;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 10px;    
 }
 
 .output {
     background-color: rosybrown;
-    width: 50px;
+    width: 200px;
+    height: 45px;
+    padding: 15px;
+    display: block;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-align: center;
 }
