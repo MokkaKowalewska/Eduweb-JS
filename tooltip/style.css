@@ -79,3 +79,9 @@ a {
     opacity: 0;
     visibility: hidden;
 }
+
+p:hover,
+img:hover,
+a:hover {
+    cursor: pointer;
+}
