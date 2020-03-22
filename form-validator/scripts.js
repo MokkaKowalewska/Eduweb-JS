@@ -1,7 +1,6 @@
 (function() {
   const form = document.querySelector("#myForm"),
-    fields = document.querySelectorAll("[data-error]"),
-    errors = [];
+    fields = document.querySelectorAll("[data-error]");
 
   function isNotEmpty(field) {
     return field.value !== "";
@@ -16,7 +15,7 @@
   }
 
 
-  function displayErrors() {
+  function displayErrors(errors) {
     let ul = document.querySelector("ul.errors");
 
     if (!ul) {
@@ -41,7 +40,7 @@
     "submit",
     function(e) {
       e.preventDefault();
-
+        let errors = [];
 
 
       for (let i = 0; i < fields.length; i++) {
